@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureGuard Pro - Professional Security Services</title>
+    <meta name="description" content="Professional security services including personal protection, escort services, home security, convoy protection, and security equipment. Trusted by executives and high-profile clients worldwide.">
+    <meta name="keywords" content="security services, personal protection, bodyguard, home security, convoy protection, corporate security">
+    <meta name="author" content="SecureGuard Pro">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SecureGuard Pro - Professional Security Services">
+    <meta property="og:description" content="Elite security services with over 20 years of experience. Personal protection, home security, and corporate solutions.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://secureguardpro.com">
+    <meta property="og:image" content="public/professional-security-team-meeting-in-modern-offic.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SecureGuard Pro - Professional Security Services">
+    <meta name="twitter:description" content="Elite security services with over 20 years of experience.">
+    <meta name="twitter:image" content="public/professional-security-team-meeting-in-modern-offic.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SecurityService",
+      "name": "SecureGuard Pro",
+      "description": "Professional security services including personal protection, escort services, home security, and convoy protection.",
+      "url": "https://secureguardpro.com",
+      "telephone": "+1-555-123-4567",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Security Blvd",
+        "addressLocality": "New York",
+        "addressRegion": "NY",
+        "postalCode": "10001",
+        "addressCountry": "US"
+      },
+      "serviceArea": {
+        "@type": "Country",
+        "name": "United States"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Security Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Personal Security",
+              "description": "Elite bodyguard services for VIPs and executives"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Home Security",
+              "description": "Advanced security systems with 24/7 monitoring"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>SecureGuard Pro</span>
+            </div>
+            <div class="loading-spinner"></div>
+            <p>Securing your digital experience...</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                <span>SecureGuard Pro</span>
+            </div>
+            
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme">
+                    <i class="fas fa-sun" id="theme-icon" aria-hidden="true"></i>
+                </button>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle" aria-label="Toggle mobile menu" role="button" tabindex="0">
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+                <span class="bar" aria-hidden="true"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" role="banner">
+        <div class="hero-slider" id="hero-slider" aria-label="Security services showcase">
+            <div class="slide active" data-bg="public/professional-security-guard-in-suit-protecting-vip.jpg" role="img" aria-label="Professional bodyguard providing VIP protection">
+                <div class="slide-content">
+                    <p class="slide-subtitle">Professional Protection Services</p>
+                    <h1 class="slide-title">Elite Personal Security</h1>
+                    <p class="slide-description">Highly trained security professionals providing discreet and comprehensive personal protection for executives, celebrities, and high-profile individuals.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button hero-cta" data-target="#contact">Learn More</button>
+                        <button class="cta-secondary hero-cta" data-target="#contact">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide" data-bg="public/armored-security-convoy-vehicles-on-road.jpg" role="img" aria-label="Armored convoy protection vehicles">
+                <div class="slide-content">
+                    <p class="slide-subtitle">Safe Transportation Solutions</p>
+                    <h1 class="slide-title">Secure Escort Services</h1>
+                    <p class="slide-description">Professional escort services ensuring safe passage through high-risk areas with trained security personnel and armored vehicles.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button hero-cta" data-target="#contact">Get Protected</button>
+                        <button class="cta-secondary hero-cta" data-target="#contact">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide" data-bg="public/modern-home-security-system-with-cameras-and-senso.jpg" role="img" aria-label="Modern home security system">
+                <div class="slide-content">
+                    <p class="slide-subtitle">Comprehensive Property Protection</p>
+                    <h1 class="slide-title">Advanced Home Security</h1>
+                    <p class="slide-description">State-of-the-art home security systems with 24/7 monitoring, smart technology integration, and rapid response capabilities.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button hero-cta" data-target="#contact">Secure Home</button>
+                        <button class="cta-secondary hero-cta" data-target="#contact">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="slide" data-bg="public/security-convoy-protecting-valuable-transport.jpg" role="img" aria-label="Security convoy protection">
+                <div class="slide-content">
+                    <p class="slide-subtitle">High-Risk Transport Security</p>
+                    <h1 class="slide-title">Convoy Protection</h1>
+                    <p class="slide-description">Specialized convoy protection services for valuable cargo, VIP transport, and high-risk area navigation with tactical support.</p>
+                    <div class="hero-buttons">
+                        <button class="cta-button hero-cta" data-target="#contact">Request Service</button>
+                        <button class="cta-secondary hero-cta" data-target="#contact">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-controls" role="group" aria-label="Slideshow controls">
+            <button class="hero-control prev" id="prev-slide" aria-label="Previous slide">
+                <i class="fas fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <button class="hero-control next" id="next-slide" aria-label="Next slide">
+                <i class="fas fa-chevron-right" aria-hidden="true"></i>
+            </button>
+        </div>
+        
+        <div class="hero-indicators" id="hero-indicators" role="group" aria-label="Slide indicators">
+            <button class="indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+            <button class="indicator" data-slide="1" aria-label="Go to slide 2"></button>
+            <button class="indicator" data-slide="2" aria-label="Go to slide 3"></button>
+            <button class="indicator" data-slide="3" aria-label="Go to slide 4"></button>
+            <!-- <button class="hero-control play-pause" id="play-pause" aria-label="Pause slideshow">
+                <i class="fas fa-pause" aria-hidden="true"></i>
+            </button> -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section" role="main">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Us</h2>
+                <p class="section-subtitle">Trusted security professionals with experience in protecting businesses, institutions, and individuals across the nation.</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Leading Security Solutions</h3>
+                    <p>We provide world-class security that ensures the safety and protection of our clients' assets, personnel, businesses, and operations. We are committed to excellence, integrity, and professionalism in everything we do.</p>
+                    <!-- <p>SecureGuard Pro has been at the forefront of professional security services for over 20 years. Our team of highly trained security professionals provides comprehensive protection solutions for individuals, businesses, and high-value assets.</p> -->
+                    <p>We combine traditional security expertise with cutting-edge technology to deliver unparalleled protection services. Our commitment to excellence and discretion has made us the preferred choice for discerning clients worldwide.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-certificate" aria-hidden="true"></i>
+                            <span>Licensed & Certified</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-clock" aria-hidden="true"></i>
+                            <span>24/7 Availability</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-globe" aria-hidden="true"></i>
+                            <span>Global Coverage</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="public/professional-security-team-meeting-in-modern-offic.jpg" alt="Professional security team meeting in modern office" loading="lazy">
+                </div>
+            </div>
+            
+            <div class="stats-grid" role="group" aria-label="Company statistics">
+                <div class="stat-card">
+                    <div class="stat-number" data-target="500" aria-label="500 clients protected">0</div>
+                    <div class="stat-label">Clients Protected</div>
+                </div>
+                <!-- <div class="stat-card">
+                    <div class="stat-number" data-target="20" aria-label="20 years experience">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div> -->
+                <div class="stat-card">
+                    <div class="stat-number" data-target="150" aria-label="150 security personnel">0</div>
+                    <div class="stat-label">Security Personnel</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-target="99" aria-label="99 percent success rate">0</div>
+                    <div class="stat-label">Success Rate %</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Security Services</h2>
+                <p class="section-subtitle">Comprehensive protection solutions tailored to your needs</p>
+            </div>
+            
+            <div class="services-grid" role="list" aria-label="Security services offered">
+                <!-- Service items will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Work in Action</h2>
+                <p class="section-subtitle">Professional security services captured in real scenarios</p>
+            </div>
+            
+            <div class="gallery-filters" role="group" aria-label="Gallery filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="personal">Personal Security</button>
+                <button class="filter-btn" data-filter="convoy">Convoy Protection</button>
+                <button class="filter-btn" data-filter="home">Home Security</button>
+                <button class="filter-btn" data-filter="equipment">Equipment</button>
+            </div>
+            
+            <div class="gallery-grid" id="gallery-grid" role="grid" aria-label="Security services gallery">
+                <!-- Gallery items will be populated by JavaScript -->
+            </div>
+        </div>
+        
+        <!-- Gallery Modal -->
+        <div class="gallery-modal" id="gallery-modal" role="dialog" aria-modal="true" aria-labelledby="modal-caption">
+            <div class="modal-content">
+                <button class="modal-close" id="modal-close" aria-label="Close gallery image">&times;</button>
+                <img src="/placeholder.svg" alt="" id="modal-image">
+                <div class="modal-caption" id="modal-caption"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What our clients say about our security services</p>
+            </div>
+            
+            <div class="testimonials-slider" id="testimonials-slider" role="region" aria-label="Client testimonials">
+                <!-- Testimonial items will be populated by JavaScript -->
+            </div>
+            
+            <div class="testimonials-controls" role="group" aria-label="Testimonial navigation">
+                <button class="testimonial-control prev" id="testimonial-prev" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                </button>
+                <button class="testimonial-control next" id="testimonial-next" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Us</h2>
+                <p class="section-subtitle">Get in touch for a security consultation</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <h3>24/7 Emergency</h3>
+                        <p><a href="tel:+15551234567">+234 (90) 123-4567</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <h3>Email Us</h3>
+                        <p><a href="mailto:info@secureguardpro.com">info@secureguardpro.com</a></p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <h3>Headquarters</h3>
+                        <p>Leventis, Ikeja<br>Lagos, Nigeria</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required aria-describedby="name-error" autocomplete="name">
+                        <span class="error-message" id="name-error" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required aria-describedby="email-error" autocomplete="email">
+                        <span class="error-message" id="email-error" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" aria-describedby="phone-error" autocomplete="tel">
+                        <span class="error-message" id="phone-error" role="alert"></span>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Service Needed</label>
+                        <select id="service" name="service">
+                            <option value="">Select a service</option>
+                            <option value="personal">Personal Security</option>
+                            <option value="escort">Escort Services</option>
+                            <option value="home">Home Security</option>
+                            <option value="convoy">Convoy Protection</option>
+                            <option value="equipment">Security Equipment</option>
+                            <option value="consultation">Consultation</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required aria-describedby="message-error" placeholder="Please describe your security needs..."></textarea>
+                        <span class="error-message" id="message-error" role="alert"></span>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send Message</span>
+                        <span class="btn-loading" style="display: none;" aria-hidden="true">
+                            <i class="fas fa-spinner fa-spin"></i> Sending...
+                        </span>
+                    </button>
+                    
+                    <div class="form-success" id="form-success" style="display: none;" role="alert">
+                        <i class="fas fa-check-circle" aria-hidden="true"></i>
+                        <p>Thank you! Your message has been sent successfully. We'll contact you within 24 hours.</p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="emergency-notice" role="alert">
+                <i class="fas fa-exclamation-triangle" aria-hidden="true"></i>
+                <p><strong>Emergency?</strong> Call our 24/7 hotline: <a href="tel:+15551234567">+1 (555) 123-4567</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt" aria-hidden="true"></i>
+                        <span>SecureGuard Pro</span>
+                    </div>
+                    <p>Trusted security professionals across Nigeria. Your safety is our priority.</p>
+                    <div class="social-links" role="list" aria-label="Social media links">
+                        <a href="#" aria-label="Follow us on Facebook" role="listitem"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Follow us on Twitter" role="listitem"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Connect on LinkedIn" role="listitem"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="#" aria-label="Follow us on Instagram" role="listitem"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+                <!-- <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">Personal Security</a></li>
+                        <li><a href="#services">Escort Services</a></li>
+                        <li><a href="#services">Home Security</a></li>
+                        <li><a href="#services">Convoy Protection</a></li>
+                        <li><a href="#services">Security Equipment</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#news">News</a></li>
+                    </ul>
+                </div> -->
+                
+                <div class="footer-section">
+                    <!-- <h3>Contact Info</h3> -->
+                    <div class="contact-item">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <span><a href="tel:+234901234567">+234 (90) 123-4567</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <span><a href="mailto:info@secureguardpro.com">info@secureguardpro.com</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <span>Leventis, Ikeja, Lagos, Nigeria</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="emergency-banner" role="alert">
+                    <i class="fas fa-phone-alt" aria-hidden="true"></i>
+                    <span>24/7 Emergency Hotline: <a href="tel:+234901234567">+234 (90) 123-4567</a></span>
+                </div>
+                <p>&copy; 2025 SecureGuard Pro. All rights reserved. | <a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
